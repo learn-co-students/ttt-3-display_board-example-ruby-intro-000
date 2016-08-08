@@ -1,9 +1,3 @@
-print "   ", "|", "   ", "|", "    "
-puts " "
-print "-----------"
-puts " "
-print "   ", "|", "   ", "|", "    "
-puts " "
-print "-----------"
-puts " "
-print "   ", "|", "   ", "|", "    "
+def display_board
+  print  "   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n"  
+end
