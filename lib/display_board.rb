@@ -1,6 +1,4 @@
 def display_board
-  puts ["   |   |   ",
-  　　　"   |   |   ",
-  　　　"   |   |   "]
-
+  array = ["   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n" ]
+puts array
 end
