@@ -3,6 +3,8 @@ def display_board
   cells =  "   |   |   "
   divider = "-----------"
   puts cells, divider, cells, divider, cells
-  
+
 end
 display_board
+
+#for board
