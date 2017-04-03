@@ -7,7 +7,7 @@ def display_board
         puts "-----------"
         x += 3
         y += 3
-        z +=3
+        z += 3
     end
     puts board[x] + "|" + board[y] + "|" + board [z]
     end
