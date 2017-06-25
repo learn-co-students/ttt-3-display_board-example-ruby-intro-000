@@ -9,13 +9,13 @@ describe '/lib/display_board.rb' do
     it 'represents a cell as a string with 3 spaces' do
       output = capture_puts{ display_board }
 
-      expect(output).to include("   ")
+      expect(output).to include("  | ")
     end
-    
+
     it 'separates cells with a | character' do
       output = capture_puts{ display_board }
 
-      expect(output).to include("   |   ")      
+      expect(output).to include("   |   ")
     end
 
     it 'prints an 3 cell row' do
