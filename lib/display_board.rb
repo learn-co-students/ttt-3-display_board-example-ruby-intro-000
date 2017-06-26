@@ -1,1 +1,12 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
+board = ["   "] * 9
+
+def display_board
+  board = ["   "] * 9
+  for i in 0...3
+    puts "#{board[i]}|#{board[i+1]}|#{board[i+2]}"
+    puts '-----------' if i!=2
+  end
+end
+
+display_board
