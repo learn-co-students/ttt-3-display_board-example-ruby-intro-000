@@ -11,11 +11,11 @@ describe '/lib/display_board.rb' do
 
       expect(output).to include("   ")
     end
-    
+
     it 'separates cells with a | character' do
       output = capture_puts{ display_board }
 
-      expect(output).to include("   |   ")      
+      expect(output).to include("   |   ")
     end
 
     it 'prints an 3 cell row' do
@@ -33,11 +33,7 @@ describe '/lib/display_board.rb' do
     it 'prints a 3x3 tic tac toe board' do
       output = capture_puts{ display_board }
 
-      expected_output  = "   |   |   \n"
-      expected_output += "-----------\n"
-      expected_output += "   |   |   \n"
-      expected_output += "-----------\n"
-      expected_output += "   |   |   \n"
+      expected_output ="\n\n    |   |  \n  -----------\n    |   |  \n  -----------\n    |   |  \n\n       "
 
       expect(output).to eq(expected_output)
     end
