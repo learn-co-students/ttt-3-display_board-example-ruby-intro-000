@@ -1,3 +1,4 @@
-def display_board# Define a method display_board that prints a 3x3 Tic Tac Toe Board
-print "A Tic Tac Toe Board"
+def  display_board
+  Print "A Tic Tac Toe Board"
 end
+display_board
