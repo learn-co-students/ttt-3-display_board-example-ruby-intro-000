@@ -1,1 +1,24 @@
-# Define a method display_board that prints a 3x3 Tic Tac Toe Board
+def display_board
+  rowone = ("   ")
+  rowtwo = ("|")
+  rowthree = ("-----------")
+  print rowone
+  print rowtwo
+  print rowone
+  print rowtwo
+  puts rowone
+  puts rowthree
+  print rowone
+  print rowtwo
+  print rowone
+  print rowtwo
+  puts rowone
+  puts rowthree
+  print rowone
+  print rowtwo
+  print rowone
+  print rowtwo
+  puts rowone
+end
+
+display_board
