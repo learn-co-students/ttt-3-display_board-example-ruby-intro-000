@@ -2,5 +2,5 @@
 def display_board
   #code
   puts "A Tic Tac Toe Board"
-  puts "   |   |   "
+  puts "   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n"
 end
