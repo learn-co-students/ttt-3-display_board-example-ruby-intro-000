@@ -4,5 +4,7 @@ def display_board
   cell = "   "
   col = "|"
   row = "-----------"
-  print cell + col + cell + col + cell + "\n" + row + "\n" + cell + col + cell + col + cell + "\n" + row + "\n" + cell + col + cell + col + cell + "\n"
+  print cell + col + cell + col + cell + "\n" +
+        row + "\n" + cell + col + cell + col + cell + "\n" +
+        row + "\n" + cell + col + cell + col + cell + "\n"
 end
