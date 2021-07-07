@@ -9,7 +9,7 @@ describe '/lib/display_board.rb' do
     it 'represents a cell as a string with 3 spaces' do
       output = capture_puts{ display_board }
 
-      expect(output).to include("   ")
+      expect(output).to include("  3 ")
     end
     
     it 'separates cells with a | character' do
@@ -33,11 +33,11 @@ describe '/lib/display_board.rb' do
     it 'prints a 3x3 tic tac toe board' do
       output = capture_puts{ display_board }
 
-      expected_output  = "   |   |   \n"
+      expected_output  = "  1 |  2 | 3  \n"
       expected_output += "-----------\n"
-      expected_output += "   |   |   \n"
+      expected_output += "   4| 5  | 6  \n"
       expected_output += "-----------\n"
-      expected_output += "   |   |   \n"
+      expected_output += " 7  | 8  |  9 \n"
 
       expect(output).to eq(expected_output)
     end
